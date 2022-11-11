@@ -1,0 +1,174 @@
+body {
+  background-color: #eeeae6;
+  color: #1c1a17;
+  font-size: 16px;
+  line-height: 1.5rem;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+/* Rubriker */
+h1,
+h2,
+h3 {
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+/* Rubriker */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 48px;
+  padding: 32px 0;
+  font-size: 2rem;
+  align-items: center;
+  border-bottom: 1px solid #1c1a17;
+}
+
+main {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 240px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #1c1a17;
+}
+
+nav a:hover {
+  color: #bc5339;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+}
+
+footer {
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  border-top: 1px solid #1c1a17;
+  padding-top: 2rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding-inline-start: 0;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+footer .createdby {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background-color: #1c1a17;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 200;
+  width: 100%;
+  padding: 8px 0;
+}
+
+/* About */
+img {
+  width: 50%;
+  height: 50%;
+}
+
+/* Info box */
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 4rem;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.info-text {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0;
+}
+
+.info-img {
+  width: 100%;
+}
+/* Info box */
+
+.caudex-font {
+  font-family: "Caudex", serif;
+  font-weight: 400;
+}
+
+/* Experience */
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.experience-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.experience-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-page {
+  display: flex;
+  flex-direction: column;
+}
